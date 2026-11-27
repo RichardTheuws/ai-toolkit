@@ -1,0 +1,11 @@
+name: An improvement
+description: A better way, a missing case, a clearer explanation
+labels: [enhancement]
+body:
+  - type: input
+    id: tool
+    attributes: { label: Which tool or playbook? }
+  - type: textarea
+    id: idea
+    attributes: { label: "What would make it better, and why?" }
+    validations: { required: true }

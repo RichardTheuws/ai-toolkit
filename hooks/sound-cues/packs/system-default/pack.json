@@ -1,0 +1,14 @@
+{
+  "name": "System Default",
+  "description": "macOS built-in system sounds",
+  "sounds": {
+    "ready": "/System/Library/Sounds/Glass.aiff",
+    "acknowledge": "/System/Library/Sounds/Pop.aiff",
+    "work": "/System/Library/Sounds/Tink.aiff",
+    "command": "/System/Library/Sounds/Morse.aiff",
+    "error": "/System/Library/Sounds/Basso.aiff",
+    "done": "/System/Library/Sounds/Hero.aiff",
+    "alert": "/System/Library/Sounds/Funk.aiff",
+    "idle": "/System/Library/Sounds/Submarine.aiff"
+  }
+}

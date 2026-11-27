@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Share how you do it"
+    url: https://github.com/RichardTheuws/ai-toolkit/discussions
+    about: "Your own setup, a lesson, a question: discussions are the place."

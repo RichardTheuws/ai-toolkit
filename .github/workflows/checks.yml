@@ -1,0 +1,31 @@
+name: checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  leak-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Leak gate (denylist from a repository secret, never in git)
+        env:
+          DENYLIST: ${{ secrets.AI_TOOLKIT_DENYLIST }}
+        run: |
+          printf '%s\n' "$DENYLIST" > "$RUNNER_TEMP/denylist.txt"
+          AI_TOOLKIT_DENYLIST="$RUNNER_TEMP/denylist.txt" python3 scripts/leak-gate/leak-gate.py --ci .
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  tests:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: python3 hooks/bash-guard/test_bash_guard.py
+      - run: python3 scripts/leak-gate/test_leak_gate.py
+      - run: bash scripts/memory-audit/test_memory_audit.sh
+      - run: cd skills/li-check && python3 -m unittest
+      - run: node --test hooks/sound-cues/
+      - run: cd templates/mcp-backend-wrapper && npm ci && npm test && npx tsc --noEmit

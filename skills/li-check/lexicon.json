@@ -1,0 +1,1243 @@
+{
+  "version": "2.0",
+  "note": "Lexicon for clean.py and check.py. The goal is writing quality: clear, concrete, in the author's own voice. Not to hide AI use. Entries have 'lang' (en/nl/any); replacements only happen in text of the same language. Edit freely.",
+  "invisible": [
+    {
+      "cp": "U+200B",
+      "name": "ZERO WIDTH SPACE",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200C",
+      "name": "ZERO WIDTH NON-JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200D",
+      "name": "ZERO WIDTH JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+2060",
+      "name": "WORD JOINER",
+      "action": "delete"
+    },
+    {
+      "cp": "U+FEFF",
+      "name": "ZERO WIDTH NO-BREAK SPACE / BOM",
+      "action": "delete"
+    },
+    {
+      "cp": "U+00AD",
+      "name": "SOFT HYPHEN",
+      "action": "delete"
+    },
+    {
+      "cp": "U+180E",
+      "name": "MONGOLIAN VOWEL SEPARATOR",
+      "action": "delete"
+    },
+    {
+      "cp": "U+061C",
+      "name": "ARABIC LETTER MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200E",
+      "name": "LEFT-TO-RIGHT MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+200F",
+      "name": "RIGHT-TO-LEFT MARK",
+      "action": "delete"
+    },
+    {
+      "cp": "U+E0000-U+E007F",
+      "name": "TAG CHARACTERS (invisible ASCII smuggling)",
+      "action": "delete"
+    },
+    {
+      "cp": "U+00A0",
+      "name": "NO-BREAK SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+202F",
+      "name": "NARROW NO-BREAK SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2009",
+      "name": "THIN SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2007",
+      "name": "FIGURE SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2003",
+      "name": "EM SPACE",
+      "action": "space"
+    },
+    {
+      "cp": "U+2002",
+      "name": "EN SPACE",
+      "action": "space"
+    }
+  ],
+  "words": [
+    {
+      "find": "delve into",
+      "replace": "look at",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "delve",
+      "replace": "look",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "dive deep into",
+      "replace": "get into",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "deep dive",
+      "replace": "breakdown",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "leverage",
+      "replace": "use",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "leveraging",
+      "replace": "using",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "utilize",
+      "replace": "use",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "utilizing",
+      "replace": "using",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "harness",
+      "replace": "use",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "embark on",
+      "replace": "start",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "foster",
+      "replace": "build",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "facilitate",
+      "replace": "help",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "showcase",
+      "replace": "show",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "unlock",
+      "replace": "get",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "elevate",
+      "replace": "improve",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "streamline",
+      "replace": "simplify",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "spearhead",
+      "replace": "lead",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "underscore",
+      "replace": "show",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "underscores",
+      "replace": "shows",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "cultivate",
+      "replace": "build",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "amplify",
+      "replace": "boost",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "curate",
+      "replace": "pick",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "curated",
+      "replace": "picked",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "empower",
+      "replace": "let",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "revolutionize",
+      "replace": "change",
+      "family": "verbs",
+      "lang": "en"
+    },
+    {
+      "find": "transformative",
+      "replace": "big",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "robust",
+      "replace": "solid",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "seamless",
+      "replace": "clean",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "seamlessly",
+      "replace": "cleanly",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "pivotal",
+      "replace": "key",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "crucial",
+      "replace": "important",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "vital",
+      "replace": "important",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "comprehensive",
+      "replace": "complete",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "cutting-edge",
+      "replace": "new",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "game-changing",
+      "replace": "big",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "game-changer",
+      "replace": "big deal",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "groundbreaking",
+      "replace": "new",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "unparalleled",
+      "replace": "unmatched",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "invaluable",
+      "replace": "useful",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "meticulous",
+      "replace": "careful",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "meticulously",
+      "replace": "carefully",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "myriad of",
+      "replace": "many",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "myriad",
+      "replace": "many",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "multifaceted",
+      "replace": "complicated",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "holistic",
+      "replace": "whole",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "bespoke",
+      "replace": "custom",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "innovative",
+      "replace": "new",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "profound",
+      "replace": "big",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "remarkable",
+      "replace": "notable",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "compelling",
+      "replace": "convincing",
+      "family": "adjectives",
+      "lang": "en"
+    },
+    {
+      "find": "tapestry",
+      "replace": "mix",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "realm",
+      "replace": "world",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "landscape",
+      "replace": "market",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "journey",
+      "replace": "process",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "testament to",
+      "replace": "proof of",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "cornerstone",
+      "replace": "base",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "beacon",
+      "replace": "signal",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "paradigm",
+      "replace": "model",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "synergy",
+      "replace": "overlap",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "ecosystem",
+      "replace": "system",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "treasure trove",
+      "replace": "pile",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "plethora of",
+      "replace": "lots of",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "plethora",
+      "replace": "lots",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "arsenal",
+      "replace": "set",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "north star",
+      "replace": "goal",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "moreover",
+      "replace": "also",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "furthermore",
+      "replace": "also",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "additionally",
+      "replace": "also",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "nevertheless",
+      "replace": "still",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "consequently",
+      "replace": "so",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "thus",
+      "replace": "so",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "hence",
+      "replace": "so",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "notably",
+      "replace": "",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "importantly",
+      "replace": "",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "ultimately",
+      "replace": "in the end",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "in essence",
+      "replace": "basically",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "in conclusion",
+      "replace": "so",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "when it comes to",
+      "replace": "with",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "in order to",
+      "replace": "to",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "a wide range of",
+      "replace": "many",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "it is worth noting that",
+      "replace": "note that",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "cruciaal",
+      "replace": "belangrijk",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "cruciale",
+      "replace": "belangrijke",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "naadloos",
+      "replace": "soepel",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "naadloze",
+      "replace": "soepele",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "robuust",
+      "replace": "stevig",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "robuuste",
+      "replace": "stevige",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "baanbrekend",
+      "replace": "nieuw",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "baanbrekende",
+      "replace": "nieuwe",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "revolutionair",
+      "replace": "nieuw",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "revolutionaire",
+      "replace": "nieuwe",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "holistisch",
+      "replace": "totaal",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "holistische",
+      "replace": "totale",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "synergie",
+      "replace": "samenwerking",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "optimaliseren",
+      "replace": "verbeteren",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "optimaliseert",
+      "replace": "verbetert",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "geoptimaliseerd",
+      "replace": "verbeterd",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "implementeren",
+      "replace": "invoeren",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "implementatie",
+      "replace": "invoering",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "faciliteren",
+      "replace": "mogelijk maken",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "teneinde",
+      "replace": "om",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "middels",
+      "replace": "met",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "derhalve",
+      "replace": "dus",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "tevens",
+      "replace": "ook",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "alsmede",
+      "replace": "en",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "gamechanger",
+      "replace": "doorbraak",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "ontzorgen",
+      "replace": "werk uit handen nemen",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "ontzorgt",
+      "replace": "neemt werk uit handen",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "transformatief",
+      "replace": "ingrijpend",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "transformatieve",
+      "replace": "ingrijpende",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "innovatieve oplossing",
+      "replace": "oplossing",
+      "family": "nl-words",
+      "lang": "nl"
+    },
+    {
+      "find": "innovatieve oplossingen",
+      "replace": "oplossingen",
+      "family": "nl-words",
+      "lang": "nl"
+    }
+  ],
+  "phrases": [
+    {
+      "find": "in today's fast-paced world",
+      "replace": "right now",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "in today's digital age",
+      "replace": "right now",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "in the ever-evolving landscape of",
+      "replace": "in",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "in the ever-changing world of",
+      "replace": "in",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "let's face it",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "here's the thing",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "picture this",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "imagine a world where",
+      "replace": "imagine if",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "it's no secret that",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "we've all been there",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "let that sink in",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "the choice is yours",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "food for thought",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "the future is here",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "what are your thoughts?",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "drop a comment below",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "at the end of the day",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "needle-moving",
+      "replace": "useful",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "move the needle",
+      "replace": "make a difference",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "a testament to",
+      "replace": "proof of",
+      "family": "nouns",
+      "lang": "en"
+    },
+    {
+      "find": "had the opportunity to",
+      "replace": "got to",
+      "family": "connectives",
+      "lang": "en"
+    },
+    {
+      "find": "i am excited to announce",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "i'm thrilled to share",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "i am humbled to",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "without further ado",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "buckle up",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "the harsh truth is",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "spoiler alert",
+      "replace": "",
+      "family": "openers",
+      "lang": "en"
+    },
+    {
+      "find": "read that again",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "you're welcome",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "save this for later",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "who's with me",
+      "replace": "",
+      "family": "closers",
+      "lang": "en"
+    },
+    {
+      "find": "in het huidige digitale tijdperk",
+      "replace": "nu",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "in de huidige snelle wereld",
+      "replace": "nu",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "in de wereld van vandaag",
+      "replace": "nu",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "in de snel veranderende wereld van",
+      "replace": "in",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "speelt een cruciale rol in",
+      "replace": "is belangrijk voor",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "speelt een sleutelrol in",
+      "replace": "is belangrijk voor",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "naar een hoger niveau tillen",
+      "replace": "verbeteren",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "naar een hoger niveau",
+      "replace": "verder",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "in een notendop",
+      "replace": "kort gezegd",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "aan het eind van de dag",
+      "replace": "uiteindelijk",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "aan het einde van de dag",
+      "replace": "uiteindelijk",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "out of the box denken",
+      "replace": "anders denken",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "met betrekking tot",
+      "replace": "over",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "ten behoeve van",
+      "replace": "voor",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "op het gebied van",
+      "replace": "in",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "een wereld van verschil",
+      "replace": "een groot verschil",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "game changer",
+      "replace": "doorbraak",
+      "family": "nl-phrases",
+      "lang": "nl"
+    },
+    {
+      "find": "next level",
+      "replace": "beter",
+      "family": "nl-phrases",
+      "lang": "nl"
+    }
+  ],
+  "structures": [
+    {
+      "id": "not-just",
+      "regex": "(?i)\\bit'?s not (?:just|only) [^.!?\\n]{2,60}[,.] it'?s\\b",
+      "name": "\"It's not just X, it's Y\"",
+      "fix": "Say the one thing you actually mean. Delete the setup half.",
+      "lang": "en"
+    },
+    {
+      "id": "not-only",
+      "regex": "(?i)\\bnot only\\b[^.!?\\n]{2,80}\\bbut also\\b",
+      "name": "\"Not only X but also Y\"",
+      "fix": "Split into two sentences, or drop the weaker half.",
+      "lang": "en"
+    },
+    {
+      "id": "isnt-about",
+      "regex": "(?i)\\b(?:this|it) is(?:n'?t| not) about [^.!?\\n]{2,60}[.!] it'?s about\\b",
+      "name": "\"It isn't about X. It's about Y.\"",
+      "fix": "Lead with Y. The reversal is the tell.",
+      "lang": "en"
+    },
+    {
+      "id": "the-result",
+      "regex": "(?i)^\\s*(?:the result|the best part|the kicker|the catch)\\?\\s*$",
+      "name": "One-word rhetorical question line",
+      "fix": "Answer it inline instead of staging a reveal.",
+      "lang": "en"
+    },
+    {
+      "id": "heres-what",
+      "regex": "(?i)\\bhere'?s what (?:i|we) learned\\b",
+      "name": "\"Here's what I learned\"",
+      "fix": "State the lesson. Skip the announcement.",
+      "lang": "en"
+    },
+    {
+      "id": "triad",
+      "regex": "(?i)\\b\\w+, \\w+, and \\w+\\.",
+      "name": "Rule-of-three triad",
+      "fix": "Two items or four. Three is the model's default rhythm.",
+      "lang": "en"
+    },
+    {
+      "id": "rocket",
+      "regex": "[\\U0001F680\\U0001F525\\U0001F4A1\\u2728\\U0001F3AF]",
+      "name": "Rocket / fire / bulb / sparkle / dart emoji",
+      "fix": "One emoji max, and not one of these five.",
+      "lang": "any"
+    },
+    {
+      "id": "hashtag-wall",
+      "regex": "(?:#\\w+[ \\t]*){5,}",
+      "name": "Hashtag wall (5+)",
+      "fix": "Three hashtags. LinkedIn stopped rewarding the wall.",
+      "lang": "any"
+    },
+    {
+      "id": "as-an-ai",
+      "regex": "(?i)\\bas an ai\\b|\\bas a language model\\b",
+      "name": "Model self-reference",
+      "fix": "Delete the sentence.",
+      "lang": "en"
+    },
+    {
+      "id": "in-summary",
+      "regex": "(?i)^\\s*(?:in summary|to summarize|in conclusion)\\b",
+      "name": "Essay-closer opener",
+      "fix": "A post does not need a conclusion paragraph.",
+      "lang": "en"
+    },
+    {
+      "id": "engagement-bait",
+      "regex": "(?i)\\b(?:agree\\?|thoughts\\?|who else\\b|am i wrong\\?)\\s*$",
+      "name": "Reflex engagement bait",
+      "fix": "Ask a question only you could ask, about the specific thing above it.",
+      "lang": "en"
+    },
+    {
+      "id": "nl-not-just-it-is",
+      "regex": "(?i)\\bhet is niet (?:alleen|zomaar|enkel) [^.!?\\n]{2,60}[,.] het is\\b",
+      "name": "Dutch: \"Het is niet alleen X, het is Y\" (it's not just X, it's Y)",
+      "fix": "Say the one thing you mean. Delete the setup half.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-not-only-but-also",
+      "regex": "(?i)\\bniet alleen\\b[^.!?\\n]{2,80}\\bmaar ook\\b",
+      "name": "Dutch: \"Niet alleen X maar ook Y\" (not only X but also Y)",
+      "fix": "Split into two sentences, or drop the weaker half.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-isnt-about",
+      "regex": "(?i)\\bhet gaat niet om [^.!?\\n]{2,60}[.!,] het gaat om\\b",
+      "name": "Dutch: \"Het gaat niet om X. Het gaat om Y.\" (it isn't about X, it's about Y)",
+      "fix": "Lead with Y.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-the-reveal",
+      "regex": "(?mi)^\\s*(?:het resultaat|de uitkomst|het geheim|de clou|het addertje|de les|het antwoord)\\?\\s*$",
+      "name": "Dutch: one-line rhetorical question (\"Het resultaat?\")",
+      "fix": "Give the answer in the sentence itself, without staging a reveal.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-heres-what",
+      "regex": "(?i)\\bdit is wat (?:ik|we) (?:leerde|leerden|geleerd hebben?)\\b",
+      "name": "Dutch: \"Dit is wat ik leerde\" (here's what I learned)",
+      "fix": "State the lesson. Skip the announcement.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-triad",
+      "regex": "(?i)\\b\\w+, \\w+ en \\w+\\.",
+      "name": "Dutch: rule-of-three triad (X, Y en Z.)",
+      "fix": "Two items or four. Three is an automatic rhythm.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-sink-in",
+      "regex": "(?i)\\blaat dat (?:even )?(?:bezinken|indalen)\\b",
+      "name": "Dutch: \"Laat dat even bezinken\" (let that sink in)",
+      "fix": "Delete it. If it is impressive, the reader will notice.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-no-secret",
+      "regex": "(?i)\\bhet is geen geheim dat\\b",
+      "name": "Dutch: \"Het is geen geheim dat\" (it's no secret that)",
+      "fix": "Start with the claim itself.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-passion",
+      "regex": "(?i)\\bgepassioneerd\\b|\\bpassie voor\\b|\\bresultaatgericht\\w*\\b",
+      "name": "Dutch: profile cliche (passie, resultaatgericht)",
+      "fix": "Show what you did, with a number or a name.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-in-summary",
+      "regex": "(?mi)^\\s*(?:kortom|samenvattend|concluderend|tot slot)\\b",
+      "name": "Dutch: essay closer (kortom, samenvattend)",
+      "fix": "A post does not need a conclusion paragraph.",
+      "lang": "nl"
+    },
+    {
+      "id": "nl-reflex-question",
+      "regex": "(?mi)^\\s*(?:herkenbaar|eens|wat vind jij|wat vinden jullie|wie herkent dit|wat denk jij)\\??\\s*$",
+      "name": "Dutch: reflex question at the end (\"Herkenbaar?\", \"Eens?\")",
+      "fix": "Ask a question only you could ask, about the specific thing above it.",
+      "lang": "nl"
+    }
+  ],
+  "transparency": [
+    {
+      "id": "denies-ai",
+      "regex": "(?i)\\b(?:zonder (?:hulp van )?(?:ai|chatgpt|claude)|geen ai gebruikt|100\\s?% (?:menselijk|zelf geschreven)|zelf geschreven,? geen ai|niet door (?:een )?ai)\\b|\\b(?:written without ai|no ai (?:was )?used|100% human[- ]written)\\b",
+      "name": "Denies or hides AI use",
+      "fix": "Remove this. AI use is never hidden or denied."
+    },
+    {
+      "id": "placeholder",
+      "regex": "\\{\\{[^}]*\\}\\}",
+      "name": "Open placeholder ({{...}})",
+      "fix": "Fill in the real fact, or delete the sentence. Never make it up."
+    },
+    {
+      "id": "private-data",
+      "regex": "(?i)\\b(?:in my (?:notes|crm|database)|according to my (?:notes|records|data|crm)|in mijn (?:notities|crm|database)|volgens mijn (?:notities|gegevens|crm))\\b",
+      "name": "References private internal data",
+      "fix": "Only use what the person shared publicly or told you directly, and then just name the source."
+    }
+  ]
+}

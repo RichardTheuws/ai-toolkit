@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Fake keys in the leak-gate tests"
+paths = ['''scripts/leak-gate/test_leak_gate\.py''']
