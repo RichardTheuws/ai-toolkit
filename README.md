@@ -28,6 +28,7 @@ By Richard Theuws ([theuws.com](https://theuws.com)), built together with Claude
 | Command | What it does |
 |---|---|
 | [/session-start](commands/session-start.md) | Starts every session the same way: git, last session, memory check, vault note, open actions |
+| [/session-end](commands/session-end.md) | Ends every session the same way: tests, commit, close actions, memory check, at most two notes worth keeping |
 | [/decision](commands/decision.md) | Records an architecture decision as a dated markdown file |
 | [/learning](commands/learning.md) | Records a lesson, and warns when the same lesson keeps coming back |
 

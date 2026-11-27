@@ -4,6 +4,11 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project uses [Semantic Versioning](https://semver.org/).
 
+## [0.3.0] - 2026-11-27
+
+### Added
+- `commands/session-end.md`: a lean `/session-end` (tests as the gate, commit and push, close finished dev actions, memory check, at most two proposals worth keeping, review as advice only). Explained in chapter 4 of the guide.
+
 ## [0.2.1] - 2026-11-27
 
 ### Changed

@@ -31,6 +31,7 @@ talen.
 | Command | Wat het doet |
 |---|---|
 | [/session-start](commands/session-start.md) | Begint elke sessie hetzelfde: git, vorige sessie, geheugencheck, vault-notitie, open acties |
+| [/session-end](commands/session-end.md) | Sluit elke sessie hetzelfde af: tests, commit, acties sluiten, geheugencheck, hooguit twee notities om te bewaren |
 | [/decision](commands/decision.md) | Legt een architectuurbeslissing vast als gedateerd markdownbestand |
 | [/learning](commands/learning.md) | Legt een les vast, en waarschuwt als dezelfde les steeds terugkomt |
 
