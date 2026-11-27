@@ -22,3 +22,4 @@ A small web shop for handmade ceramics. Static pages, a checkout API, and an adm
 
 ## Lessons
 - [[2026-11-20-rsync-delete-removed-server-env]] rsync --delete removed the server's .env
+- [[2026-11-12-webhook-retry-double-order]] A webhook retry created a second paid order
