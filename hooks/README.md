@@ -9,5 +9,6 @@ it keeps coming back.
 |---|---|---|
 | [bash-guard](bash-guard/) | PreToolUse (Bash) | Blocks three recurring shell mistakes |
 | [session-tracker](session-tracker/) | SessionStart + SessionEnd | One log line per session |
+| [vault-context](vault-context/) | SessionStart | Gives Claude the vault note of this project |
 | [compact-recovery](compact-recovery/) | SessionStart (compact) | Restores branch and git state after compaction |
 | [sound-cues](sound-cues/) | several | A sound per state, so you can look away |

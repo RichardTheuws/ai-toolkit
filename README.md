@@ -9,7 +9,7 @@ what you would do differently. That is the point of publishing: together we get
 better at this.
 
 By Richard Theuws ([theuws.com](https://theuws.com)), built together with Claude.
-Overview page: [tools.theuws.com](https://tools.theuws.com).
+**The guide**: [tools.theuws.com](https://tools.theuws.com/) explains how these tools work together, chapter by chapter, with screenshots.
 
 ## What's in here
 
@@ -19,6 +19,7 @@ Overview page: [tools.theuws.com](https://tools.theuws.com).
 |---|---|
 | [bash-guard](hooks/bash-guard/) | Blocks three shell mistakes that kept coming back: `rsync --delete` that can wipe a `.env`, zsh `$var:x` traps, and tests chained to a push with `;` |
 | [session-tracker](hooks/session-tracker/) | One log line per session (project, start, end, duration), so a new session knows where the last one stopped |
+| [vault-context](hooks/vault-context/) | At session start, gives Claude the vault note of the project you are in |
 | [compact-recovery](hooks/compact-recovery/) | After compaction, tells Claude the branch, uncommitted files and recent commits |
 | [sound-cues](hooks/sound-cues/) | A sound when Claude is ready, working, failing or done, so you can look away from the terminal |
 
@@ -26,6 +27,7 @@ Overview page: [tools.theuws.com](https://tools.theuws.com).
 
 | Command | What it does |
 |---|---|
+| [/session-start](commands/session-start.md) | Starts every session the same way: git, last session, memory check, vault note, open actions |
 | [/decision](commands/decision.md) | Records an architecture decision as a dated markdown file |
 | [/learning](commands/learning.md) | Records a lesson, and warns when the same lesson keeps coming back |
 
@@ -67,6 +69,10 @@ Overview page: [tools.theuws.com](https://tools.theuws.com).
 | [video-studio](https://github.com/RichardTheuws/video-studio) | A Claude Code skill that makes a finished video from chat: edit footage or generate it, with an approval step before paid renders |
 | [VOX](https://github.com/RichardTheuws/VOX-app) | macOS menu bar app that reads AI replies aloud from the terminal and editors, on-device |
 | [FalconDebugger](https://github.com/RichardTheuws/FalconDebugger) | WordPress debugging plugin |
+
+## Try it on a demo vault
+
+`examples/demo-vault` is a tiny made-up vault (one project, two decisions, a lesson, two dev actions). Point `VAULT_DIR` at it to try the hooks and commands before using your own notes.
 
 ## How to use it
 

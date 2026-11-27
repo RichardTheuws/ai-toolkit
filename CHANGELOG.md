@@ -4,6 +4,14 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project uses [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-11-27
+
+### Added
+- `commands/session-start.md`: a lean `/session-start` (git, last session, memory audit, vault note, open dev actions, one banner).
+- `hooks/vault-context`: gives Claude the vault note of the current repository at session start (7 tests).
+- `examples/demo-vault`: a small made-up vault to try the hooks and commands.
+- The READMEs point to the guide on tools.theuws.com.
+
 ## [0.1.1] - 2026-11-27
 
 ### Fixed

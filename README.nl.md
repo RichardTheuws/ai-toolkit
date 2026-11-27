@@ -9,7 +9,7 @@ en we horen graag wat jij anders zou doen. Daarvoor publiceren we het: samen
 worden we hier beter in.
 
 Van Richard Theuws ([theuws.com](https://theuws.com)), gebouwd samen met Claude.
-Overzichtspagina: [tools.theuws.com/nl/](https://tools.theuws.com/nl/).
+**De gids**: [tools.theuws.com/nl/](https://tools.theuws.com/nl/) legt per hoofdstuk uit hoe deze tools samenwerken, met schermafbeeldingen.
 
 De code en de README's per tool zijn in het Engels. De playbooks staan in beide
 talen.
@@ -22,6 +22,7 @@ talen.
 |---|---|
 | [bash-guard](hooks/bash-guard/) | Houdt drie shell-fouten tegen die steeds terugkwamen: `rsync --delete` die een `.env` kan wissen, zsh-valkuilen als `$var:x`, en tests die met `;` aan een push vastzitten |
 | [session-tracker](hooks/session-tracker/) | Eén logregel per sessie (project, begin, eind, duur), zodat een nieuwe sessie weet waar de vorige ophield |
+| [vault-context](hooks/vault-context/) | Geeft Claude bij de start de vault-notitie van het project waarin je zit |
 | [compact-recovery](hooks/compact-recovery/) | Vertelt Claude na het samenvatten van het gesprek de branch, de openstaande wijzigingen en de laatste commits |
 | [sound-cues](hooks/sound-cues/) | Een geluid als Claude klaarstaat, bezig is, vastloopt of klaar is, zodat je niet naar de terminal hoeft te kijken |
 
@@ -29,6 +30,7 @@ talen.
 
 | Command | Wat het doet |
 |---|---|
+| [/session-start](commands/session-start.md) | Begint elke sessie hetzelfde: git, vorige sessie, geheugencheck, vault-notitie, open acties |
 | [/decision](commands/decision.md) | Legt een architectuurbeslissing vast als gedateerd markdownbestand |
 | [/learning](commands/learning.md) | Legt een les vast, en waarschuwt als dezelfde les steeds terugkomt |
 
@@ -70,6 +72,10 @@ talen.
 | [video-studio](https://github.com/RichardTheuws/video-studio) | Een Claude Code-skill die vanuit de chat een af filmpje maakt: monteren of genereren, met een akkoordstap vóór betaalde renders |
 | [VOX](https://github.com/RichardTheuws/VOX-app) | Menubalk-app voor macOS die AI-antwoorden uit terminal en editors voorleest, op het apparaat zelf |
 | [FalconDebugger](https://github.com/RichardTheuws/FalconDebugger) | Plugin om WordPress te debuggen |
+
+## Proberen met een demovault
+
+`examples/demo-vault` is een kleine verzonnen vault (één project, twee beslissingen, een les, twee dev-acties). Zet `VAULT_DIR` erop om de hooks en commands te proberen voordat je je eigen notities gebruikt.
 
 ## Gebruiken
 

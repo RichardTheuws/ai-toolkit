@@ -5,6 +5,7 @@ projects) or `.claude/commands/` (one project), then type `/<name>`.
 
 | Command | What it does |
 |---|---|
+| [`/session-start`](session-start.md) | Starts a session with git state, the last session, a memory check, the vault note and open actions, in one banner |
 | [`/decision`](decision.md) | Records an architecture decision (ADR) as a dated markdown file in your vault |
 | [`/learning`](learning.md) | Records a lesson the same way, and warns when the same lesson keeps coming back |
 
@@ -22,7 +23,7 @@ We have used these daily for months; there are well over a hundred dated
 decision records in our own vault by now. The value shows up later, when a
 session asks "why is this built this way?" and the answer is one grep away.
 
-See also: [playbooks/obsidian-as-shared-memory.md](../playbooks/obsidian-as-shared-memory.md).
+Explained in the guide: [tools.theuws.com](https://tools.theuws.com/), chapter 1 for `/session-start`.
 
 ## Make this better
 
