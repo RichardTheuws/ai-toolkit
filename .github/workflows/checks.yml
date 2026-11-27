@@ -27,5 +27,5 @@ jobs:
       - run: python3 scripts/leak-gate/test_leak_gate.py
       - run: bash scripts/memory-audit/test_memory_audit.sh
       - run: cd skills/li-check && python3 -m unittest
-      - run: node --test hooks/sound-cues/
+      - run: node --test hooks/sound-cues/sound-cues.test.js
       - run: cd templates/mcp-backend-wrapper && npm ci && npm test && npx tsc --noEmit
