@@ -126,6 +126,19 @@ class TestCheck(unittest.TestCase):
         self.assertEqual(verdict, "REWRITE")
         self.assertIn("denies-ai", {g["id"] for g in gate})
 
+    def test_gate_denies_ai_english_variants(self):
+        for line in ["I wrote every word of this post myself, 100% without AI.",
+                     "No AI was used.", "No AI involved.", "This was not written by AI.",
+                     "100% human-written.", "I typed this without any AI help."]:
+            gate = run(EN_GOOD + "\n" + line, LEX)[3]
+            self.assertIn("denies-ai", {g["id"] for g in gate}, line)
+
+    def test_gate_ignores_technical_without_ai(self):
+        for line in ["The hook runs without AI.", "It works offline, without AI calls.",
+                     "We made the check without AI-generated rules."]:
+            gate = run(EN_GOOD + "\n" + line, LEX)[3]
+            self.assertNotIn("denies-ai", {g["id"] for g in gate}, line)
+
     def test_gate_placeholder(self):
         _, _, verdict, gate, _ = run(NL_GOOD + "\nWe bespaarden {{jouw getal}} uur.", LEX)
         self.assertEqual(verdict, "REWRITE")

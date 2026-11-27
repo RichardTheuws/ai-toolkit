@@ -1223,7 +1223,7 @@
   "transparency": [
     {
       "id": "denies-ai",
-      "regex": "(?i)\\b(?:zonder (?:hulp van )?(?:ai|chatgpt|claude)|geen ai gebruikt|100\\s?% (?:menselijk|zelf geschreven)|zelf geschreven,? geen ai|niet door (?:een )?ai)\\b|\\b(?:written without ai|no ai (?:was )?used|100% human[- ]written)\\b",
+      "regex": "(?i)\\b(?:zonder (?:hulp van )?(?:ai|chatgpt|claude)|geen ai gebruikt|100\\s?% (?:menselijk|zelf geschreven)|zelf geschreven,? geen ai|niet door (?:een )?ai)\\b|\\b(?:written without ai|no ai (?:was )?(?:used|involved)|100\\s?% (?:without ai|human(?:[- ]written)?|by me|myself)|(?:not|never) (?:been )?(?:written|generated|made|created) (?:by|with) (?:an? )?(?:ai|chatgpt|claude)|ai[- ]free (?:post|text|writing|content))\\b|\\b(?:written|wrote|made|created|typed)\\b[^.!?\\n]{0,60}\\bwithout (?:any |the help of |using )?(?:ai|chatgpt|claude)\\b(?!-)",
       "name": "Denies or hides AI use",
       "fix": "Remove this. AI use is never hidden or denied."
     },
